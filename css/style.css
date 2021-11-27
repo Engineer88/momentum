@@ -1,7 +1,39 @@
+body {
+  height: 100vh;
+  width: 100wh;
+}
+.login-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .hidden {
   display: none;
 }
 
 span {
   color: red;
+}
+
+#greeting,
+#todo-form,
+#quote {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-form input {
+  width: 400px;
+}
+#quote span {
+  color: black;
+}
+#weather {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+#weather span {
+  color: black;
 }
